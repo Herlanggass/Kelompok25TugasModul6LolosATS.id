@@ -1,9 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LolosATS.id - Cek Skor ATS CV-mu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #e5e9f0;
+            color: #0f172a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header / Navbar */
+        header {
+            background-color: #0d1b2a;
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.25rem;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: opacity 0.2s;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .btn-daftar, .btn-masuk {
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .btn-daftar {
+            background-color: #ffffff;
+            color: #0d1b2a;
+            border: none;
+        }
+
+        .btn-masuk {
+            background-color: transparent;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+
+        /* Main Content Section */
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero h1 {
+            font-size: 2.1rem;
+            font-weight: 700;
+            color: #0d1b2a;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            color: #334155;
+            max-width: 650px;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        /* Upload Box */
+        .upload-box {
+            border: 2px dashed #475569;
+            width: 100%;
+            max-width: 500px;
+            height: 180px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.4);
+            color: #334155;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 35px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .upload-box:hover {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* CTA Button */
+        .btn-action {
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 12px 28px;
+            border-radius: 8px;
+            border: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s;
+        }
+
+        .btn-action:hover {
+            background-color: #0f172a;
+        }
+
+        /* Robot Illustration Placeholder (CSS-based visual accent) */
+        .robot-container {
+            position: absolute;
+            right: 5%;
+            bottom: 0;
+            width: 250px;
+            height: 320px;
+            background: #cbd5e1;
+            border-top-left-radius: 120px;
+            border-top-right-radius: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #64748b;
+            font-size: 0.85rem;
+            text-align: center;
+            padding: 20px;
+            z-index: -1;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World</h1>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">LolosATS.id</div>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Cara Kerja</a>
+            <a href="#">Fitur</a>
+            <a href="#">Tamplate ATS</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="btn-daftar">Daftar</a>
+            <a href="#" class="btn-masuk">Masuk</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Cek Skor ATS CV-mu Dalam Bahasa Indonesia Secara Lengkap</h1>
+        <p>Ketahui kelemahan CV-mu, optimalkan kata kunci pekerjaan, dan tingkatkan peluang dipanggil interview tanpa kendala bahasa.</p>
+        
+        <div class="upload-box">
+            Unggah CV-mu Disini
+        </div>
+
+        <button class="btn-action">Cek CV Gratis Sekarang</button>
+        
+        <!-- Ilustrasi pengganti maskot robot -->
+        <div class="robot-container">
+            [Ilustrasi Maskot Robot]
+        </div>
+    </section>
+
 </body>
 </html>
