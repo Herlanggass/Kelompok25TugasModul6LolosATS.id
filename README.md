@@ -1,1 +1,1 @@
-HIDUP JOKOWI!!!!!!
+ayo dikerjain gais!!!
