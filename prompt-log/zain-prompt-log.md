@@ -4,7 +4,7 @@
 **Nama:** Zakky Zain Alfi Syahri<br>
 **Kelompok:** Kelompok 25 (`LolosATS.id`)
 
-Dokumen ini mencatat riwayat instruksi (prompt), respon/tindakan AI, strategi iterasi, dan analisis refaktorisasi kode HTML5 semantik berdasarkan prototipe Figma untuk alur otentikasi proyek (Login, Register, dan Verifikasi Email)[cite: 2].
+Dokumen ini mencatat riwayat instruksi (prompt), analisis, dan perbaikan kode HTML5 semantik berdasarkan desain Figma untuk proyek LolosATS.id.[cite: 2].
 
 ---
 
