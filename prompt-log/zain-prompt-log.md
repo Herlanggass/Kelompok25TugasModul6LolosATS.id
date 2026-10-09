@@ -1,7 +1,7 @@
 # Prompt Log - Sesi Refactoring & Pembuatan Struktur HTML5
 
 # Laporan Pengerjaan & Log Prompt - Modul 06 Konversi Figma ke HTML5
-**Nama:** Zakky Zain Alfi Syahri 
+**Nama:** Zakky Zain Alfi Syahri<br>
 **Kelompok:** Kelompok 25 (`LolosATS.id`)
 
 Dokumen ini mencatat riwayat instruksi (prompt), respon/tindakan AI, strategi iterasi, dan analisis refaktorisasi kode HTML5 semantik berdasarkan prototipe Figma untuk alur otentikasi proyek (Login, Register, dan Verifikasi Email)[cite: 2].
