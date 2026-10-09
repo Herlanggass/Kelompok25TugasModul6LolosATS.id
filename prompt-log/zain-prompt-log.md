@@ -59,7 +59,6 @@ Berikut adalah contoh perbandingan refaktorisasi kode pada halaman Verifikasi Em
 </head>
 <body>
 
-  <!-- Masih dominan div-soup dan belum ada landmark semantik -->
   <div>
     <div>
       <img src="assets/images/send-mail.png">
@@ -74,7 +73,6 @@ Berikut adalah contoh perbandingan refaktorisasi kode pada halaman Verifikasi Em
 
       <form>
         <div>Kode verifikasi 6 digit</div>
-        <!-- Input OTP tidak terikat label dan tidak memiliki pengelompokan semantik -->
         <input type="text">
         <input type="text">
         <input type="text">
