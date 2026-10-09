@@ -51,7 +51,7 @@ Dokumen ini mencatat riwayat instruksi (prompt), respon/tindakan AI, strategi it
 Berikut adalah contoh perbandingan refaktorisasi kode pada halaman Verifikasi Email (`verifikasi-email.html`):
 
 ### Kode Sebelum Refactoring (Before - Div-Soup & Non-Semantik)
-
+'''
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,9 +92,10 @@ Berikut adalah contoh perbandingan refaktorisasi kode pada halaman Verifikasi Em
 
 </body>
 </html>
+'''
 
 ### Kode Setelah Refactoring (After - Semantik & Aksesibel)
-
+'''
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -159,6 +160,7 @@ Berikut adalah contoh perbandingan refaktorisasi kode pada halaman Verifikasi Em
 
 </body>
 </html>
+'''
 
 ## 3. Analisis Refaktorisasi Kode
 
