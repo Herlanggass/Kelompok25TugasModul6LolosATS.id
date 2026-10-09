@@ -16,7 +16,7 @@ Dokumen ini mencatat riwayat instruksi (prompt), respon/tindakan AI, strategi it
 * **Respon & Hasil AI:**  
   Menghasilkan kode HTML awal yang merepresentasikan seluruh elemen visual Figma, namun struktur masih dominan menggunakan tag `div` (*div-soup*), input belum terikat ke label, dan tombol belum menggunakan tag semantik.
 * **Prompt Pengguna (Refaktorisasi):**  
-  > "Lakukan refactoring pada kode HTML login sebelumnya agar memenuhi standar W3C dan aksesibilitas (a11y). Hilangkan seluruh div-soup dan ganti dengan tag semantik <header>, <main>, <section>, <figure>. Tambahkan elemen <img> dengan format ikon PNG (email, lock, eye, google) pada kolom form, ikat setiap input ke label via id, ubah tautan aksi menjadi elemen <button>, serta susun hierarki heading secara teratur."
+  > "Lakukan refactoring pada kode HTML login sebelumnya agar memenuhi standar W3C dan aksesibilitas (a11y). Hilangkan seluruh div-soup dan ganti dengan tag semantik header, main, section, figure. Tambahkan elemen <img> dengan format ikon PNG (email, lock, eye, google) pada kolom form, ikat setiap input ke label via id, ubah tautan aksi menjadi elemen <button>, serta susun hierarki heading secara teratur."
 * **Respon & Hasil AI:**  
   Menyusun ulang kode `login.html` menggunakan landmark semantik HTML5 murni, menyisipkan elemen `<img>` untuk ikon PNG di dalam kolom input, menghubungkan `<input>` dengan `<label for="...">`, serta memastikan tombol form menggunakan elemen `<button type="submit">`.
 
@@ -40,7 +40,7 @@ Dokumen ini mencatat riwayat instruksi (prompt), respon/tindakan AI, strategi it
 * **Respon & Hasil AI:**  
   Menghasilkan struktur awal halaman verifikasi email, namun 6 kolom input OTP masih berdiri sendiri sebagai input teks biasa tanpa pengelompokan semantik dan tanpa pengaturan keyboard seluler.
 * **Prompt Pengguna (Refaktorisasi):**  
-  > "Refaktor kode verifikasi email menjadi struktur HTML5 semantik dan lulus W3C 100%. Gunakan landmark <header>, <main>, <section>, dan <figure>. Kelompokkan 6 input OTP menggunakan <fieldset> dan <legend>. Lengkapi setiap input dengan label serta atribut inputmode='numeric', pattern='[0-9]', maxlength='1', dan autocomplete='one-time-code'. Gunakan tag <button> untuk aksi form dan atur hubungan aksesibilitas via aria-describedby."
+  > "Refaktor kode verifikasi email menjadi struktur HTML5 semantik dan lulus W3C 100%. Gunakan landmark header main, section, dan figure. Kelompokkan 6 input OTP menggunakan fieldset dan legend. Lengkapi setiap input dengan label serta atribut inputmode='numeric', pattern='[0-9]', maxlength='1', dan autocomplete='one-time-code'. Gunakan tag <button> untuk aksi form dan atur hubungan aksesibilitas via aria-describedby."
 * **Respon & Hasil AI:**  
   Menyajikan kode akhir `verifikasi-email.html` yang sepenuhnya terstruktur dengan `<fieldset>` dan `<legend>`, dilengkapi atribut aksesibilitas penuh (`aria-labelledby`, `aria-describedby`), serta siap diuji pada W3C Validator tanpa error maupun warning.
 
