@@ -16,7 +16,7 @@ Dokumen ini mencatat riwayat instruksi (prompt), respon/tindakan AI, strategi it
 * **Respon & Hasil AI:**  
   Menghasilkan kode HTML awal yang merepresentasikan seluruh elemen visual Figma, namun struktur masih dominan menggunakan tag `div` (*div-soup*), input belum terikat ke label, dan tombol belum menggunakan tag semantik.
 * **Prompt Pengguna (Refaktorisasi):**  
-  > "Lakukan refactoring pada kode HTML login sebelumnya agar memenuhi standar W3C dan aksesibilitas (a11y). Hilangkan seluruh div-soup dan ganti dengan tag semantik (<header>, <main>, <section>, <figure>). Tambahkan elemen <img> dengan format ikon PNG (email, lock, eye, google) pada kolom form, ikat setiap input ke label via id, ubah tautan aksi menjadi elemen <button>, serta susun hierarki heading secara teratur."
+  > "Lakukan refactoring pada kode HTML login sebelumnya agar memenuhi standar W3C dan aksesibilitas (a11y). Hilangkan seluruh div-soup dan ganti dengan tag semantik <header>, <main>, <section>, <figure>. Tambahkan elemen <img> dengan format ikon PNG (email, lock, eye, google) pada kolom form, ikat setiap input ke label via id, ubah tautan aksi menjadi elemen <button>, serta susun hierarki heading secara teratur."
 * **Respon & Hasil AI:**  
   Menyusun ulang kode `login.html` menggunakan landmark semantik HTML5 murni, menyisipkan elemen `<img>` untuk ikon PNG di dalam kolom input, menghubungkan `<input>` dengan `<label for="...">`, serta memastikan tombol form menggunakan elemen `<button type="submit">`.
 
