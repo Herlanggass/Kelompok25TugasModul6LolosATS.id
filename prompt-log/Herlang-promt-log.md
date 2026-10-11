@@ -13,3 +13,7 @@ Dokumen ini mencatat riwayat instruksi (prompt), analisis, dan perbaikan kode HT
 ## 2. Refactoring Kode HTML untuk Standar W3C & Penghapusan Div-Soup
 * **Prompt Pengguna:** Menanyakan cara mengatasi tombol (<button>) yang tidak bisa diklik atau diarahkan ke halaman lain saat menggunakan atribut href="index.html".
 * **Tindakan AI:** Menjelaskan bahwa tag <button> tidak mendukung atribut href, serta memberikan solusi yang tepat berupa penggunaan tag anchor (<a>) untuk navigasi tautan atau membungkus tombol di dalam elemen formulir (<form>) dengan atribut pengiriman yang benar sesuai standar HTML5.
+
+## 2. Refactoring Kode HTML untuk Standar W3C & Penghapusan Div-Soup
+* **Prompt Pengguna:** Meminta pembuatan teks untuk bagian panduan karir, tips CV, serta FAQ/Pusat Bantuan (bukan kode HTML), agar selaras dengan rangkaian tugas modul sebelumnya.".
+* **Tindakan AI:**Menyusun draf teks terstruktur dan informatif yang mencakup panduan karir profesional, 5 tips menyusun CV ATS-friendly, daftar pertanyaan umum (FAQ) beserta solusinya, serta kontak bantuan.
